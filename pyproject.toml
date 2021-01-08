@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sphinx-needs-issue-166"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Eades <danieleades@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Sphinx = "^3.4.3"
+sphinxcontrib-needs = "^0.6.0"
+sphinxcontrib-plantuml = "^0.19"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
